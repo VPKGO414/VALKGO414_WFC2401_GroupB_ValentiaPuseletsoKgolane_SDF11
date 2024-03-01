@@ -1,0 +1,43 @@
+.hidden {
+    display: none;
+  }
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+#back-to-top-btn:hover {
+    background-color: #555;
+}
+
+.show-btn {
+    display: block;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center; /* Center align the social links */
+}
+
+.social-link {
+  margin: 0 10px; /* Adjust the spacing between social icons */
+  width: 30px; /* Set the width of each social icon */
+  height: 30px; /* Set the height of each social icon */
+}
+
+.social-link svg {
+  width: 100%; /* Make the SVG icon fill the entire space of its container */
+  height: 100%; /* Make the SVG icon fill the entire space of its container */
+  fill: #000; /* Set the color of the SVG icon */
+}
